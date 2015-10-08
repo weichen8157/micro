@@ -1,0 +1,4 @@
+//TIMES 100
+// %for.body don't touch register s0, s1
+//ld_kernarg_align(8)_width(all)_u64  $d1, [%__global_offset_0];
+ld_kernarg_align(8)_width(all)_u64  $d1, [%out];

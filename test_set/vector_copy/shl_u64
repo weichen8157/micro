@@ -1,0 +1,4 @@
+//TIMES 100
+// %for.body don't touch register s0, s1
+//shl_u64 $d1, $d1, 32;
+shl_u64 $d1, $d2, 32;
